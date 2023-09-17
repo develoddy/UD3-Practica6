@@ -60,8 +60,5 @@ class ViewController: UIViewController {
     
     override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
         fromInterfaceOrientation == .portrait || fromInterfaceOrientation == .portraitUpsideDown ? stackViewShow() : stackViewHide()
-            
     }
-
 }
-
